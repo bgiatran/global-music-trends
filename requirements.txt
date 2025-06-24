@@ -1,0 +1,34 @@
+# Core data work
+pandas
+numpy
+
+# Spotify API helper
+spotipy
+
+# Web/API requests
+requests
+python-dotenv
+
+# Language detection & country helpers
+langdetect
+pycountry-convert
+pycountry
+geopy
+
+# Visualization
+streamlit
+plotly>=5.0
+seaborn
+matplotlib
+altair
+
+# Machine learning / clustering
+scikit-learn
+joblib
+
+# Notebook support
+jupyter
+nbformat
+
+# SQL / database
+sqlalchemy
