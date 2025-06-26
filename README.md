@@ -4,8 +4,6 @@
 > Due to file size limits and licensing, full datasets and the SQLite database are not uploaded.  
 > However, the full project structure, scripts, and documentation are provided to support reproducibility.
 
----
-
 ## Project Summary
 
 This project analyzes **global music trends from 2017 to 2023**, offering insights into genre evolution, mood metrics, language diversity, and artist geography. It combines data from **Kaggle**, **Spotify Charts**, **language detection APIs**, and custom ML clustering tools to explore the worldwide music landscape.
