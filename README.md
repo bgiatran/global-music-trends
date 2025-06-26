@@ -10,7 +10,7 @@
 
 This project analyzes **global music trends from 2017 to 2023**, offering insights into genre evolution, mood metrics, language diversity, and artist geography. It combines data from **Kaggle**, **Spotify Charts**, **language detection APIs**, and custom ML clustering tools to explore the worldwide music landscape.
 
-Due to **limited access to Spotify’s audio features API** and an inactive SoundCloud key, I worked with **public datasets**, **archived feature exports**, and **preloaded metadata** instead of live APIs. I built this dashboard around a large SQLite database (~1GB), which cannot be uploaded to GitHub—but all scripts and screenshots have been shared to show the full pipeline and outcomes.
+Due to **limited access to Spotify’s audio features API** and an inactive SoundCloud key, I worked with **public datasets**, **archived feature exports**, and **preloaded metadata** instead of live APIs. I built this dashboard around a large SQLite database (~3GB), which cannot be uploaded to GitHub—but all scripts and screenshots have been shared to show the full pipeline and outcomes.
 
 ---
 
