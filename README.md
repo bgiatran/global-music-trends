@@ -170,21 +170,26 @@ Each section of the dashboard reveals a different dimension of global music evol
 
 ## Challenges
 
-- The Spotify Audio Features API was unavailable, so I relied on archived datasets and public metadata
-- My **SoundCloud API key stopped working**, limiting platform coverage
-- The **database size (~1GB)** was too large to upload or load in-memory for real-time interaction
-- Originally planned SQL queries were replaced by Python due to JOIN failures, memory overload, and indexing issues
-- Significant effort was spent aligning inconsistent column names and resolving dataset mismatches
+- The **Spotify Audio Features API** was unavailable, so I relied on archived datasets and public metadata for key audio features.
+- My **SoundCloud API key stopped working**, which limited platform coverage and data completeness.
+- The **database size (~1GB)** was too large to upload or load fully in-memory, hindering real-time interaction and analysis.
+- Planned **SQL queries had to be replaced with Python scripts** due to JOIN failures, memory overload, and indexing issues.
+- Significant effort was required to **align inconsistent column names and resolve dataset mismatches** across multiple sources.
+- Cleaning and matching **YouTube Music video data** was especially challenging due to missing or unreliable artist names from label uploads and unofficial remixes.
+- **Genre inconsistencies** across platforms complicated grouping, as the same track might be labeled reggaeton, hip-hop, or pop depending on the source.
+- Verifying viral TikTok songs was difficult when tracks went viral under meme names or lacked official releases.
+
+Despite these challenges, the project revealed meaningful insights about global music trends, and I’m motivated to build smarter, more scalable data pipelines to bridge these gaps.
 
 ---
 
 ## Future Plans
 
-- Create a **cleaner modular folder structure** with better naming and deduplication
-- Implement a **user-friendly config system** to re-run the pipeline with custom data
-- Rebuild the app with **streamlined SQL + DuckDB** for faster join performance
-- Add SoundCloud + YouTube support when keys/API access become available
-- Expand the ML predictor to include **genre evolution** and **cross-country mood shifts**
+- Create a cleaner, modular folder structure with improved naming conventions and better deduplication.
+- Implement a user-friendly configuration system to allow easy re-running of the pipeline with custom data inputs.
+- Rebuild the app using streamlined SQL and **DuckDB** and **Docker** for faster join performance and better scalability.
+- Add support for **SoundCloud and YouTube** once API keys and access become available again.
+- Expand the machine learning predictor to include **genre evolution** and **cross-country mood shifts** for deeper trend analysis.
 
 ---
 
